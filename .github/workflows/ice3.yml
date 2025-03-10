@@ -1,0 +1,23 @@
+name: Inclass Exercise 3 by Muhammad Mahad
+
+on: push
+
+jobs:    
+  job1:
+    name: First Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: List Files
+        run: ls -la
+      - name: Print directory
+        run: pwd
+  job2:
+    name: Second Job
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Print directory
+        run: pwd
