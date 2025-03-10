@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InclassExercise3",
+            "request": "launch",
+            "mainClass": "InclassExercise3",
+            "projectName": "ICE3Muhammad_399d64db"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        }
+    ]
+}
